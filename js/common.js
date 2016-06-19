@@ -1,5 +1,9 @@
 $(document).ready(function () {
 
+    // Svg-sprite for IE
+    
+    svg4everybody();
+    
     // Sliding Panel
 
     $('.sliding-panel-button,.sliding-panel-fade-screen,.sliding-panel-close').on('click touchstart', function (e) {
